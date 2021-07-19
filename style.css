@@ -1,8 +1,38 @@
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
 /* Navbar */
+.navbar {}
+
 .site-title {
 	font-size: 30px;
+	font-weight: bold;
 }
 
 .nav-item {
 	font-size: 20px;
+}
+
+/* Header */
+.header {
+	background: linear-gradient(to right, #0276c4, #12afe4);
+	background-size: cover;
+	padding-top: 10%;
+	padding-bottom: 10%;
+	text-align: center;
+	color: white;
+}
+
+.main-title {
+	font-weight: bold;
+}
+
+.main-subtitle {
+	font-weight: bold;
+}
+
+.intro-txt {
+	font-size: 20px;
+	font-weight: bold;
 }
